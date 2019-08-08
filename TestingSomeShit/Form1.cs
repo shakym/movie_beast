@@ -82,5 +82,16 @@ namespace TestingSomeShit
             collection.UpdateOne(s => s.Id == ObjectId.Parse(textBox1.Text), updateDef);
             ReadAllDocuments();
         }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            collection.DeleteOne(s => s.Id == ObjectId.Parse(textBox1.Text));
+            ReadAllDocuments();
+        }
     }
 }

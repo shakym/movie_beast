@@ -107,6 +107,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // label1
             // 
@@ -176,6 +177,7 @@
             this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 13;
             this.label5.Text = "Movie description";
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // Form1
             // 
